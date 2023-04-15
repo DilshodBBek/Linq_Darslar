@@ -9,7 +9,8 @@
             //Projection_Operators.Start();
             //Filtering_Operators.Start();
             //Set_Operators.Start();
-            ///*Quantifier_Operators*/.Start();
+            //Quantifier_Operators.Start();
+            //Grouping_Operators.Start();
         }
     }
 }
