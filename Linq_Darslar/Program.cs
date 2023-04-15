@@ -12,6 +12,7 @@
             //Quantifier_Operators.Start();
             //Grouping_Operators.Start();
             //Partitioning_Operators.Start();
+            //Element_Operator.Start();
         }
     }
 }
