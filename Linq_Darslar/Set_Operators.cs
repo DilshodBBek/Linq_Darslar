@@ -4,7 +4,25 @@
     {
         public static void Start()
         {
+            //Distinct1();
+            //Distinct2();
+            //Distinct3();
+            //Distinct4();
 
+            //Except1();
+            //Except2();
+            //Except3();
+            //Except4();
+
+            //Intersect1();
+            //Intersect2(); 
+            //Intersect3();
+            //Intersect4();
+
+            //Union1();
+            //Union2();
+            //Union3();
+            //Union4();
         }
 
         public static void Distinct1()

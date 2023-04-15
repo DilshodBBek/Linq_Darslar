@@ -8,6 +8,8 @@
             //Aggregation_Functions.Start();
             //Projection_Operators.Start();
             //Filtering_Operators.Start();
+            //Set_Operators.Start();
+            Quantifier_Operators.Start();
         }
     }
 }
