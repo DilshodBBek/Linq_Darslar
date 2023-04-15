@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Linq_Darslar
+﻿namespace Linq_Darslar
 {
     internal class Generation_Operators
     {
@@ -23,7 +17,7 @@ namespace Linq_Darslar
             //EmptyWithException();
         }
 
-        public static void Range1() 
+        public static void Range1()
         {
             //Generating Intger Numbers from 1 to 10
             IEnumerable<int> numberSequence = Enumerable.Range(1, 10);
@@ -99,7 +93,7 @@ namespace Linq_Darslar
             }
         }
 
-        public static void RepeatWithException() 
+        public static void RepeatWithException()
         {
 
             //Repeating the string value Welcome to DOT NET Tutorials for 10 Times

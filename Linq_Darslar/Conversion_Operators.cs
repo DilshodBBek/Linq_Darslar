@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Linq_Darslar
+﻿namespace Linq_Darslar
 {
     internal class Conversion_Operators
     {
@@ -27,7 +21,7 @@ namespace Linq_Darslar
             }
         }
 
-        public static void ToList() 
+        public static void ToList()
         {
             List<string> fruits = new List<string> { "apple", "banana", "cherry", "date", "elderberry" };
             List<string> shortFruits = fruits.Where(f => f.Length <= 5).ToList();

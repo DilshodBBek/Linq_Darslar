@@ -13,7 +13,7 @@
             //GroupByInto3();
         }
 
-        public static void GroupBy1() 
+        public static void GroupBy1()
         {
             //Using Method Syntax
             IEnumerable<IGrouping<string, Student>> GroupByMS = Student.GetStudents().GroupBy(s => s.Barnch);
