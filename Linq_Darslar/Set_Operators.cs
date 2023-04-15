@@ -152,7 +152,7 @@
             //Query Syntax
             var QS = (from std in AllStudents
                       select std).Except(Class6Students).ToList();
-            
+
             foreach (var student in MS)
             {
                 Console.WriteLine($" ID : {student.ID} Name : {student.Name}");

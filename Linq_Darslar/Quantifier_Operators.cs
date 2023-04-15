@@ -68,7 +68,7 @@
             //Query Syntax
             var ResultQS = (from name in stringArray
                             select name).Any(name => name.Length > 5);
-            Console.WriteLine("Is Any name with a Length greater than 5 Characters: " + ResultMS);  
+            Console.WriteLine("Is Any name with a Length greater than 5 Characters: " + ResultMS);
         }
 
         public static void Contains1()
