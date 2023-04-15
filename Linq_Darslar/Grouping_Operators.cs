@@ -4,13 +4,13 @@
     {
         public static void Start()
         {
-            GroupBy1();
-            GroupBy2();
-            GroupBy3();
+            //GroupBy1();
+            //GroupBy2();
+            //GroupBy3();
 
-            GroupByInto1();
-            GroupByInto2();
-            GroupByInto3();
+            //GroupByInto1();
+            //GroupByInto2();
+            //GroupByInto3();
         }
 
         public static void GroupBy1() 
