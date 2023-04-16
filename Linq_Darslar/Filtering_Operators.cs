@@ -116,9 +116,9 @@
     public static void OfType()
     {
         List<object> dataSource = new List<object>()
-            {
-                "Ahad", "Abdulatif", 50, "Xurshid", "Ulug'bek", 10, 20, 30, 40, "Abubakr"
-            };
+        {
+           "Ahad", "Abdulatif", 50, "Xurshid", "Ulug'bek", 10, 20, 30, 40, "Abubakr"
+        };
 
         List<int> intData = dataSource.OfType<int>().ToList();
 
@@ -142,7 +142,6 @@
         {
             Console.Write(name + " ");
         }
-
     }
 }
 
