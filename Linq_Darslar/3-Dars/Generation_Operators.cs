@@ -1,6 +1,6 @@
 ﻿namespace Linq_Darslar
 {
-    internal class Generation_Operators
+    public class Generation_Operators
     {
         public static void Start()
         {

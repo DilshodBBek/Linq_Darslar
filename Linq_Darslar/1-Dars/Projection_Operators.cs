@@ -3,14 +3,14 @@ public static class Projection_Operators
 {
     public static void Start()
     {
-        Select();
-        SelectFewProperties();
-        SelectAnonymousType();
-        SelectWithCalculations();
+        //Select();
+        //SelectFewProperties();
+        //SelectAnonymousType();
+        //SelectWithCalculations();
 
-        SelectMany();
-        SelectManyExample();
-        SelectManyComplex();
+        //SelectMany();
+        //SelectManyExample();
+        //SelectManyComplex();
     }
     public static void Select()
     {

@@ -28,7 +28,7 @@
 
         public static void All2()
         {
-            string[] stringArray = { "James", "Sachin", "Sourav", "Pam", "Sara" };
+            string[] stringArray = { "James", "Lochin", "Ruslan", "Allegri", "Sara" };
             //Using Method Syntax
             bool ResultMS = stringArray.All(name => name.Length > 5);
             //Using Query Syntax
@@ -62,7 +62,7 @@
 
         public static void Any3()
         {
-            string[] stringArray = { "James", "Sachin", "Sourav", "Pam", "Sara" };
+            string[] stringArray = { "James", "Lochin", "Ruslan", "Allegri", "Sara" };
             //Method Syntax
             var ResultMS = stringArray.Any(name => name.Length > 5);
             //Query Syntax
@@ -85,16 +85,16 @@
 
         public static void Contains2()
         {
-            List<string> namesList = new List<string>() { "James", "Sachin", "Sourav", "Pam", "Sara" };
+            List<string> namesList = new List<string>() { "James", "Lochin", "Ruslan", "Allegri", "Sara" };
             //Using Method Syntax
             //This method belongs to System.Collections.Generic namespace
-            var IsExistsMS1 = namesList.Contains("Anurag");
+            var IsExistsMS1 = namesList.Contains("Temur");
             //This method belongs to System.Linq namespace
-            var IsExistsMS2 = namesList.AsEnumerable().Contains("Anurag");
+            var IsExistsMS2 = namesList.AsEnumerable().Contains("Temur");
             //Using Query Syntax
             var IsExistsQS = (from num in namesList
-                              select num).Contains("Anurag");
-            Console.WriteLine($"Is Name Anurag Exist: {IsExistsQS}");
+                              select num).Contains("Temur");
+            Console.WriteLine($"Is Name Temur Exist: {IsExistsQS}");
         }
     }
 }

@@ -161,20 +161,20 @@
 
         public static void Except4()
         {
-            List<Student> AllStudents = new List<Student>()
+            List<Student1> AllStudents = new()
             {
-                new Student {ID = 101, Name = "Preety" },
-                new Student {ID = 102, Name = "Sambit" },
-                new Student {ID = 103, Name = "Hina"},
-                new Student {ID = 104, Name = "Anurag"},
-                new Student {ID = 105, Name = "Pranaya"},
-                new Student {ID = 106, Name = "Santosh"},
+                new Student1 { ID = 101, Name = "Xurshid" },
+                new Student1 { ID = 102, Name = "Jamol" },
+                new Student1 { ID = 103, Name = "Xojiakbar" },
+                new Student1 { ID = 104, Name = "Kamol" },
+                new Student1 { ID = 105, Name = "Olim" },
+                new Student1 { ID = 106, Name = "Adham" },
             };
-            List<Student> Class6Students = new List<Student>()
+            List<Student1> Class6Students = new()
             {
-                new Student {ID = 102, Name = "Sambit" },
-                new Student {ID = 104, Name = "Anurag"},
-                new Student {ID = 105, Name = "Pranaya"},
+                new Student1 {ID = 102, Name = "Jamol" },
+                new Student1 {ID = 104, Name = "Kamol"},
+                new Student1 {ID = 105, Name = "Olim" }
             };
 
             //Method Syntax
@@ -258,17 +258,17 @@
         {
             List<Student1> StudentCollection1 = new List<Student1>()
             {
-                new Student1 {ID = 101, Name = "Preety" },
-                new Student1 {ID = 102, Name = "Sambit" },
-                new Student1 {ID = 105, Name = "Hina"},
-                new Student1 {ID = 106, Name = "Anurag"},
+                new Student1 { ID = 101, Name = "Xurshid" },
+                new Student1 { ID = 102, Name = "Jamol" },
+                new Student1 { ID = 105, Name = "Xojiakbar" },
+                new Student1 { ID = 106, Name = "Adham" },
             };
             List<Student1> StudentCollection2 = new List<Student1>()
             {
-                new Student1 {ID = 105, Name = "Hina"},
-                new Student1 {ID = 106, Name = "Anurag"},
-                new Student1 {ID = 107, Name = "Pranaya"},
-                new Student1 {ID = 108, Name = "Santosh"},
+                new Student1 { ID = 105, Name = "Olim" },
+                new Student1 { ID = 106, Name = "Adham" },
+                new Student1 {ID = 107, Name = "O'ktam"},
+                new Student1 {ID = 108, Name = "Akmal"},
             };
 
             //Method Syntax
@@ -350,12 +350,15 @@
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public bool Equals(Student other) =>
-            this.ID.Equals(other.ID) && this.Name.Equals(other.Name);
+        public bool Equals(Student other)
+        {
+            return ID.Equals(other.ID) && Name.Equals(other.Name);
+        }
+
         public override int GetHashCode()
         {
-            int IDHashCode = this.ID.GetHashCode();
-            int NameHashCode = this.Name == null ? 0 : this.Name.GetHashCode();
+            int IDHashCode = ID.GetHashCode();
+            int NameHashCode = Name == null ? 0 : Name.GetHashCode();
             return IDHashCode ^ NameHashCode;
         }
     }
